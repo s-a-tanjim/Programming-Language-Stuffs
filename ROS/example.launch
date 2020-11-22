@@ -1,0 +1,10 @@
+<launch>
+  <arg name="arg_name" default="default_val" />
+
+  
+  
+  <node name="listener" pkg="roscpp_tutorials" type="listener" output="screen" />
+  <node name="talker" pkg="roscpp_tutorials" type="talker" output="screen" />
+</launch>
+
+<!-- To run: roslaunch example.launch arg_name:=value -->

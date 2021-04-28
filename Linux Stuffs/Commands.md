@@ -139,6 +139,11 @@
 
     Show CPU details
 
+30. `nvidia-smi`
+  *Descriptions*
+
+    Show Driver details
+
 
 # Desktop Environments
 nautilus => desktop environment/file manage
